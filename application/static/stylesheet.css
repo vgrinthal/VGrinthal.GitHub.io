@@ -4,10 +4,55 @@
 
 #NavMenu {
 	text-align: left;
+	font-size: 25px;
+}
+
+#MenuLinks {
+	margin: 3px;
 }
 
 #mainText {
 	 background-color: #D7AEF2;
 	 width:100%;
 	 height:auto;
+	 clear: both;
+}
+
+#footerContent {
+	text-align: center;
+	width:100%;
+	float: center;
+
+}
+
+html {
+	overflow-x: hidden;
+	background-color: #D7AEF2;
+
+}
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+}
+
+#picPlace {
+	display: inline-block;
+	position: relative;
+	width: 30%;
+	height: 50%;
+	overflow: hidden;
+	border-radius: 50%;
+	vertical-align: top;
+}
+
+#picPlace img {
+	width: 100%;
+	height: 100%;
+	margin-right: -70%;
+	float: left;
+}
+
+#aboutMe {
+
 }

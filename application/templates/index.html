@@ -3,8 +3,9 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="../static/stylesheet.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-	<nav id="mainHeaderNav" class="navbar navbar-expand-lg fixed-top navbar-light">
+	<nav id="mainHeaderNav" class="navbar navbar-expand-lg fixed-top navbar-light shadow p-3 mb-5 rounded">
 		<a class="navbar-brand" href="https://vgrinthal.github.io">
  				<img src="../static/includes/logoTransparent1.png" width="125" height="70" alt="" loading="lazy" >
 		</a>
@@ -14,13 +15,13 @@
 
   <div id="NavMenu" class="collapse navbar-collapse">
     <ul class="navbar-nav inline ml-auto">
-      <li class="nav-item">
+      <li class="nav-item" id="MenuLinks">
         <a class="nav-link" href="https://vgrinthal.github.io/Design.html/">Graphic Design</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item" id="MenuLinks">
         <a class="nav-link" href="https://vgrinthal.github.io/Technology.html/">Coding and Technology</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item" id="MenuLinks">
         <a class="nav-link" href="https://vgrinthal.github.io/Contact.html"/>Contact</a>
       </li>
     </ul>
@@ -30,16 +31,23 @@
 <div class="position-relative overflow-hidden" style="background-color: #E2C9F2; width:100%; height:auto;">
        <img src="../static/includes/logoName.jpg" style="width:100%; height: auto;">   
 </div>
-<div id="mainText" class="position-relative overflow-x-hidden">
+<div id="mainText" class="position-relative overflow-x-hidden container-fluid">
 	<h1>About Me</h1>
-<a class="btn btn-outline-secondary" href="#">Coming soon</a>
+	<div id="picPlace">
+		<img src="../static/includes/VictoriaGrinthal.jpg" alt="Victoria Grinthal">
+	</div>
+	<div id="aboutMe">
+		<p>Welcome to my website! My name is Vickie and I am a web developer based in Copiague, New York. I graduated from Adelphi University in 2020 with a BS in Computer and Management Information Systems, with minors in Computer Science and Graphic Design.</p>
+		<a class="btn btn-outline-secondary" href="https://vgrinthal.github.io/Design.html/">Graphic Design Work</a>
+		<a class="btn btn-outline-secondary" href="https://vgrinthal.github.io/Technology.html/">Technology Projects</a>
+	</div>
 </div>
 </body>
 <footer>
 	<nav class="page-footer font-small black">
-		<div class="bg-dark" style="text-align: center;">
+		<div class="bg-dark" id="footerContent">
 			<a class="navbar-brand" href="https://vgrinthal.github.io">
-				<img src="../static/includes/logoTransparent1.png" width="125" height="70" alt="" loading="lazy" >
+				<img src="../static/includes/logoTransparent1.png" width="125" height="70" alt="Victoria Grinthal Logo" loading="lazy" >
 			</a>
 			<p class="text-white p">All graphics and pieces on this site are the property of Victoria Grinthal. Please contact for job openings and usage of said works, but do not claim them for your own. Thank you so much!</p>
 		</div>
