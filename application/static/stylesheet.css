@@ -33,16 +33,16 @@ html {
 
 h1 {
 	font-size: 50px;
-	text-align: center;
+	text-align: left;
 }
 
 #picPlace {
 	display: inline-block;
 	position: relative;
-	width: 30%;
-	height: 50%;
+	width: 20%;
+	height: 20%;
 	overflow: hidden;
-	border-radius: 50%;
+	border-radius: 30%;
 	vertical-align: top;
 }
 
@@ -51,8 +51,14 @@ h1 {
 	height: 100%;
 	margin-right: -70%;
 	float: left;
+	padding: 15px 10px;
+}
+
+#aboutMe p {
+	float:left;
+	font-size: 30px;
 }
 
 #aboutMe {
-
+	padding: 15px 10px;
 }
