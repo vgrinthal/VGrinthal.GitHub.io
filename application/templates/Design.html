@@ -1,42 +1,48 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
 <head>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="../static/stylesheet.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <nav id="mainHeaderNav" class="navbar navbar-expand-lg fixed-top navbar-light shadow p-3 mb-5 rounded">
+    <a class="navbar-brand" href="https://vgrinthal.github.io">
+        <img src="../static/includes/logoTransparent1.png" width="125" height="70" alt="" loading="lazy" >
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+  <div id="NavMenu" class="collapse navbar-collapse">
+    <ul class="navbar-nav inline ml-auto">
+      <li class="nav-item" id="MenuLinks">
+        <a class="nav-link" href="https://vgrinthal.github.io/Design.html/">Graphic Design</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+      <li class="nav-item" id="MenuLinks">
+        <a class="nav-link" href="https://vgrinthal.github.io/Technology.html/">Coding and Technology</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+      <li class="nav-item" id="MenuLinks">
+        <a class="nav-link" href="https://vgrinthal.github.io/Contact.html"/>Contact</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
+</div>
 </nav>
+<body>
+<div class="position-relative overflow-x-hidden" style="background-color: #E2C9F2; width:100%; height:auto;">
+       <img src="../static/includes/GraphicDesign.png" style="width:100%; height: auto;">   
+</div>
+<div id="mainText" class="position-relative overflow-x-hidden container-fluid">
+  
+</div>
+</body>
+<footer>
+  <nav class="page-footer font-small black">
+    <div class="bg-dark" id="footerContent">
+      <a class="navbar-brand" href="https://vgrinthal.github.io">
+        <img src="../static/includes/logoTransparent1.png" width="125" height="70" alt="Victoria Grinthal Logo" loading="lazy" >
+      </a>
+      <p class="text-white p">All graphics and pieces on this site are the property of Victoria Grinthal. Please contact for job openings and usage of said works, but do not claim them for your own. Thank you so much!</p>
+    </div>
+  </nav>
+</footer>
 </html>
