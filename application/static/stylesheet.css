@@ -66,3 +66,16 @@ h1 {
 #pageButtons {
 	align-content: center;
 }
+
+#designCarousel {
+	display: inline-block;
+	align-content: center;
+	padding: 20px 10px;
+	margin: 0 auto;
+}
+
+.carousel-item {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
