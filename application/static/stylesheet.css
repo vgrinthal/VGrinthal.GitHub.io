@@ -79,3 +79,7 @@ h1 {
 	height: 100%;
 	object-fit: cover;
 }
+
+.card {
+	background-color: #D7AEF2;
+}
