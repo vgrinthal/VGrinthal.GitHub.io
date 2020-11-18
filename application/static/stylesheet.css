@@ -69,17 +69,20 @@ h1 {
 
 #designCarousel {
 	padding: 20px 10px;
-	margin: 0 auto;
 	width: 100%;
+	margin-top: 51px;
 }
 
-.carousel-inner > .item > img {
-	display: inline-block;
+#DesignCarousel .item {
 	position: absolute;
-	width: 100%;
-	height: 100%;
+	top: 0;
+	left: 0;
+	min-width: 100%;
 	text-align: center;
+} 
 
+.carousel-inner > .item > img {
+	min-width: 100%;
 }
 
 .card {
