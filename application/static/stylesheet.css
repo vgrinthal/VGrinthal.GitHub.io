@@ -28,7 +28,7 @@ footer {
 
 body {
 	background-color: #D7AEF2;
-	position: relative;
+	position: absolute;
 }
 
 html {
@@ -82,7 +82,7 @@ h1 {
 } 
 
 .carousel-inner > .item > img {
-	min-width: 100%;
+	margin: auto;
 }
 
 .card {
